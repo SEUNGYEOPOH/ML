@@ -350,7 +350,7 @@ __double underscores__
 ```
 
 <img src="http://cfile6.uf.tistory.com/image/2426E646543C9B4532C7B0" width="450px" height="300px" title="px(픽셀) 크기 설정" alt="RubberDuck"></img><br/>
-<img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fblog.lgcns.com%2F2212&psig=AOvVaw2X5enyhoo3heSsHXCZLv52&ust=1626182614739000&source=images&cd=vfe&ved=0CAoQjRxqFwoTCKCCq7zQ3fECFQAAAAAdAAAAABAD" width="40%" height="30%" title="%(비율) 크기 설정" alt="BEN"></img>
+<img src="https://t1.daumcdn.net/cfile/tistory/999597495E744F711D" width="40%" height="30%" title="%(비율) 크기 설정" alt="BEN"></img>
 
 ## 2.9. 줄바꿈
 3칸 이상 띄어쓰기(` `)를 하면 줄이 바뀐다.
