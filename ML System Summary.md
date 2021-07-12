@@ -2,11 +2,18 @@ ML System Summary
 ======================
 
 # 1. Machine Learning, Deep Learning
-## 1.1. 
-[**Markdown**](http://whatismarkdown.com/)은 텍스트 기반의 마크업언어로 2004년 존그루버에 의해 만들어졌으며 쉽게 쓰고 읽을 수 있으며 HTML로 변환이 가능하다. 특수기호와 문자를 이용한 매우 간단한 구조의 문법을 사용하여 웹에서도 보다 빠르게 컨텐츠를 작성하고 보다 직관적으로 인식할 수 있다.
-마크다운이 최근 각광받기 시작한 이유는 깃헙([https://github.com](https://github.com)) 덕분이다. 깃헙의 저장소Repository에 관한 정보를 기록하는 README.md는 깃헙을 사용하는 사람이라면 누구나 가장 먼저 접하게 되는 마크다운 문서였다. 마크다운을 통해서 설치방법, 소스코드 설명, 이슈 등을 간단하게 기록하고 가독성을 높일 수 있다는 강점이 부각되면서 점점 여러 곳으로 퍼져가게 된다.
+## 1.1. what is ML,DL?
+<img src="https://t1.daumcdn.net/cfile/tistory/999597495E744F711D" width="40%" height="30%" title="%(비율) 크기 설정" alt="BEN"></img>
 
-## 1.2. 마크다운의 장-단점
+ML(Machine Learning)은 경험을 통해 자동으로 개선하는 컴퓨터 알고리즘의 연구이다. ML은 사람이 디자인한 feature 값들을 추출하고, 그 후 의도한 출력 값이 나오도록 유도하는 것이다. 이를 매핑이라하며, ML은 어떤 feature를 사용하는지, 디자인을 얼마나 구현하는지에 따라서 성능이 확연하게 달라진다.
+DL(Deep Learning)은 머신러닝의 일부로 볼 수 있다. DL은 Deep Neural Network를 사용하여 Representation을 배우는 것이다. DL은 ML과 달리 사람이 어떤 feature를 추출하는 디자인 과정이 없다. 즉 input에서 특정한 feature를 선택해서 사용하겠다고 배우고, 그 feature에서 최종적인 output을 도출한다. DL에서 이를 매핑이라하며 feature를 스스로 학습하므로 Representation Learning이라고도 부른다.
+
+<img src="https://i2.wp.com/semiengineering.com/wp-content/uploads/2018/01/MLvsDL.png?resize=733%2C405&ssl=1" width="40%" height="30%" title="%(비율) 크기 설정" alt="BEN"></img>
+
+
+
+
+## 1.2. Structure of ML
 ### 1.2.1. 장점
 	1. 간결하다.
 	2. 별도의 도구없이 작성가능하다.
@@ -350,7 +357,7 @@ __double underscores__
 ```
 
 <img src="http://cfile6.uf.tistory.com/image/2426E646543C9B4532C7B0" width="450px" height="300px" title="px(픽셀) 크기 설정" alt="RubberDuck"></img><br/>
-<img src="https://t1.daumcdn.net/cfile/tistory/999597495E744F711D" width="40%" height="30%" title="%(비율) 크기 설정" alt="BEN"></img>
+
 
 ## 2.9. 줄바꿈
 3칸 이상 띄어쓰기(` `)를 하면 줄이 바뀐다.
@@ -395,3 +402,8 @@ View 영역의 항목을 그대로 붙여넣거나 HTML 내보내기 등으로 �
 
 # P.S.
 최근에는 [Notion](https://www.notion.so/product) 을 조금씩 사용중이다. Notion 에서 작성한 문서는 Atom(<https://atom.io/>), Visual Studio Code(<https://code.visualstudio.com/>), Notepad++(<https://notepad-plus-plus.org/>)텍스트 편집기에 복붙(복사하고 붙여넣기)하면 마크다운문법으로 작성된 문장이 기입되고 이지윅 에디터를 제공하는 웹에디터에 붙여넣기 하면 거의 완벽한 형태로 복사된다. 그래서 애용중이다.
+
+## ○ 참고문서
+* [78 Tools for writing and previewing Markdown](http://mashable.com/2013/06/24/markdown-tools/)
+* [SEMICONDUCTOR ENGINEERING](https://semiengineering.com/deep-learning-spreads/)
+* [Creative&Smart](https://blog.lgcns.com/2212/)
