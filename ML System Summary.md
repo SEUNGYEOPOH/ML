@@ -54,6 +54,8 @@ ML을 이용하기 위해서는 크게 3가지가 필요하다.
 
     Collaborative Filtering은 추천 시스템에서 많이 사용한다.
     
+    Ex) 사용자가 과거에 매겼던 다른 영화 평점을 기반으로 해당영화 평점을 예측하는 것. 
+    
 * Frequent Pattern Mining
 
     Frequent Pattern Mining은 빈번히 동시에 발생하는 패턴들을 찾아서 보는 것이다.
@@ -64,6 +66,49 @@ ML을 이용하기 위해서는 크게 3가지가 필요하다.
 
 ...
 
+## 2.2. DL Applications
+
+
+*  Image classification 
+
+    Regression은 변수간의 관계를 찾아내는 것이다. 
+    
+    Ex) 건전지 사용량 x와 건전지 성능 y 사이의 관계를 찾는 것.
+*  Speech-to-text, text-to-speec
+
+    Classification은 말 그대로 분류하는 것이다. 
+    
+    Pass/Non-Pass와 같이 이분법적으로 분류하면 Binary Classification, A~F까지 Grade를 매기는 것은 Multi-label Classification이라고 한다.
+    
+    Ex) SpamFilter와 같이 수신된 메일이 스팸인지 스팸이 아닌지 검출하는 것.
+*  Video understanding 
+
+   Clustering은  여러 데이터 포인트들이 있을 때, 더 근접한 데이터들끼리 모아서 클러스터를 만드는 것이다.
+* Image. video style transfer
+
+    Topic Modeling은 어떤 Topic에 해당하는 것인지 찾아내는 것이다.
+    
+    Ex) 많은 Article들이 어떤 Topic에 해당하는 것인지 찾아내는 것.
+    
+* Text understanding - dialog
+
+    Collaborative Filtering은 추천 시스템에서 많이 사용한다.
+    
+    Ex) 사용자가 과거에 매겼던 다른 영화 평점을 기반으로 해당영화 평점을 예측하는 것. 
+    
+*   Ranking ads, feeds, news
+
+    Frequent Pattern Mining은 빈번히 동시에 발생하는 패턴들을 찾아서 보는 것이다.
+    
+*  Robot control. game play
+
+    Ranking은 여러가지 답의 중요도를 매겨서 순서를 나타내는 것이다.
+    
+*   Self-driving car
+
+    Ranking은 여러가지 답의 중요도를 매겨서 순서를 나타내는 것이다.
+
+...
 
 
 
