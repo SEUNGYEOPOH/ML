@@ -2,7 +2,7 @@ ML System Summary
 ======================
 
 # 1. Machine Learning, Deep Learning
-## 1.1. what is ML,DL?
+## 1.1. What is ML,DL?
 <img src="https://t1.daumcdn.net/cfile/tistory/999597495E744F711D" width="40%" height="30%" title="%(비율) 크기 설정" alt="BEN"></img>
 ### 1.1.1 ML(Machine Learning)
 ML(Machine Learning)은 경험을 통해 자동으로 개선하는 컴퓨터 알고리즘의 연구이다. ML은 사람이 디자인한 feature 값들을 추출하고, 그 후 의도한 출력 값이 나오도록 유도하는 것이다. 이를 매핑이라하며, ML은 어떤 feature를 사용하는지, 디자인을 얼마나 구현하는지에 따라서 성능이 확연하게 달라진다.
@@ -109,6 +109,13 @@ ML을 이용하기 위해서는 크게 3가지가 필요하다.
 
 ...
 
+****
+# 3. ML WorkFlow
+## 3.1. Two Main Steps of ML
+### 3.1.1 Training
+Training은 학습에 해당한다. Training은 ML Model을 계속 반복적으로 학습시켜서 Execption 값을 최적화하기 위해서 수행하는 단계이다. 이를 통해 최종적으로 우리가 의도하는 Model이 만들어진다. 이때 Training에 사용하는 Data는 상당히 많고, 복잡한 Model을 사용하기 때문에 계산이 많이 들어간다.
+### 3.1.2 Inference(Prediction)
+Inference 또는 Prediction은 추론, 예측에 해당한다. 전 단계인 Training을 통해 도출한 Model을 사용하는 것을 의미하며 이 과정에서 새로운 Input Data가 들어왔을 때 Prediction을 하게된다. Prediction은 속도가 중요하므로 Latency가 매우 강조된다. 
 
 
 ## ○ 참고문서
