@@ -126,6 +126,10 @@ Inference 또는 Prediction은 추론, 예측에 해당한다. 전 단계인 Tra
 ### 3.1.3 Model Evaluate
 Model Evaluate는 다양한 Model, 다양한 하이퍼 파라미터에서 가장 잘 동작하는 Model을 찾아내는 과정을 말한다. Model을 Training할 때 다양한 Model의 가능성을 열어두고 그 중 가장 잘 동작하는 Model을 고른다. 그렇게 해서 찾아진 Model을 Deploy 한다. Deploy된 Model을 실제로 사용하며 새로운 Training Data를 모으고, 다시 그 Model을 Training하는 과정이 반복적으로 일어난다.
 
+****
+# 4. ML Software Stack
+
+<img width="312" alt="STACK" src="https://user-images.githubusercontent.com/81912557/125437759-869dd6a6-3412-492b-b62b-cd35dca64d2f.PNG">
 
 
 ## ○ 참고문서
