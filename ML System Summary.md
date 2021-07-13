@@ -111,11 +111,21 @@ ML을 이용하기 위해서는 크게 3가지가 필요하다.
 
 ****
 # 3. ML WorkFlow
-## 3.1. Two Main Steps of ML
+## 3.1. Three Main Steps of ML
+
+<img src="https://blog.kakaocdn.net/dn/dsq65V/btqWn2PcfdJ/CJ5kKZ2ug81Nj6Mgg7W1HK/img.png" width="40%" height="30%" title="%(비율) 크기 설정" alt="BEN"></img>
+
 ### 3.1.1 Training
-Training은 학습에 해당한다. Training은 ML Model을 계속 반복적으로 학습시켜서 Execption 값을 최적화하기 위해서 수행하는 단계이다. 이를 통해 최종적으로 우리가 의도하는 Model이 만들어진다. 이때 Training에 사용하는 Data는 상당히 많고, 복잡한 Model을 사용하기 때문에 계산이 많이 들어간다.
+
+
+Training은 학습에 해당한다. Training은 ML Model을 계속 반복적으로 학습시켜서 Execption 값을 최적화하기 위해서 수행하는 단계이다. 이를 통해 최종적으로 우리가 의도하는 Model이 만들어진다. 이때 Training에 사용하는 Data는 상당히 많고, 복잡한 Model을 사용하기 때문에 계산이 많이 들어간다. 
+
 ### 3.1.2 Inference(Prediction)
-Inference 또는 Prediction은 추론, 예측에 해당한다. 전 단계인 Training을 통해 도출한 Model을 사용하는 것을 의미하며 이 과정에서 새로운 Input Data가 들어왔을 때 Prediction을 하게된다. Prediction은 속도가 중요하므로 Latency가 매우 강조된다. 
+Inference 또는 Prediction은 추론, 예측에 해당한다. 전 단계인 Training을 통해 도출한 Model을 실제로 사용하는 것을 의미하며 이 과정에서 새로운 Input Data가 들어왔을 때 Prediction을 하게된다. Prediction은 속도가 중요하므로 Latency가 매우 강조된다. 
+
+### 3.1.3 Model Evaluate
+Model Evaluate는 다양한 Model, 다양한 하이퍼 파라미터에서 가장 잘 동작하는 Model을 찾아내는 과정을 말한다. Model을 Training할 때 다양한 Model의 가능성을 열어두고 그 중 가장 잘 동작하는 Model을 고른다. 그렇게 해서 찾아진 Model을 Deploy 한다. Deploy된 Model을 실제로 사용하며 새로운 Training Data를 모으고, 다시 그 Model을 Training하는 과정이 반복적으로 일어난다.
+
 
 
 ## ○ 참고문서
