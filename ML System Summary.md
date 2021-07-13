@@ -135,14 +135,16 @@ Model Evaluate는 다양한 Model, 다양한 하이퍼 파라미터에서 가장
 ML Software Stack은 ML이 Training&Prediction을 가능하게 해주는 기반이다. 맨 아래는 다양한 Hardware를 이용하는 부분이다. 이런 Hardware를 이용하여 ML Training&Prediction을 실행하는 ML Core가 있다. 그 위에 ML 작업 중에 Domain에 특화된 부분에 해당하는 Lib인 Vision, Speech, Language Lib가 있다. 이런 다양한 Lib 또는 ML Core를 이용하여  최종적으로  ML Application을 만들게 된다.
 
 ## 4.2. ML Software Frameworks
-* TensorFlow
-* PyTorch
-* Caffe2
-* MXNet
+* TensorFlow(Google에서 오픈소스)
+* PyTorch(Facebook에서 오픈소스)
+* Caffe2(Facebook에서 오픈소스)
+* MXNet(Apache Software Foundation에서 오픈소스, Amazon에서 많은 Contribution)
+
+이런 Software를 효율적으로 이용하려면 빠른 계산을 할 수 있는 Hardware가 있어야 한다.
 ## 4.3. ML Hardware
 * GPU
+  GPU는 Graphics Processing Unit의 약자로 초기 GPU는 그래픽스 처리를 위해서 만들었다. 그 후 2004년에 들어서며 GPU가 Programmable하게 되고, 그래픽스 이외에 계산을 처리할 수 있게 되었다. 하지만 할 수 있는 것이 제한되어 있는 Shader Programing이었다. 2006년도에 접어들며 GPU는 완전한 Programmable을 이루었고, NVIDIA에서 그래픽스가 아닌 Program을 표현하기 위한 언어로 CUDA라는 언어를 제공했다. CUDA는 GPU에서 아주 빠르게 병렬처리가 가능하다.
 * GPU VS CPU
-* CPU
 * AIPU
 
 
