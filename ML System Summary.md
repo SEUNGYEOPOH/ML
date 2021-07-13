@@ -69,44 +69,43 @@ ML을 이용하기 위해서는 크게 3가지가 필요하다.
 ## 2.2. DL Applications
 
 
-*  Image classification 
+*  Image Classification 
 
-    Regression은 변수간의 관계를 찾아내는 것이다. 
+    Image Classification은 특정 이미지가 들어왔을 때 Fixel 데이터를 Input으로 인식하여 해당 이미지가 어떤 분류에 속하는지 파악하는 것이다.
     
-    Ex) 건전지 사용량 x와 건전지 성능 y 사이의 관계를 찾는 것.
-*  Speech-to-text, text-to-speec
+*  Speech-To-Text, Text-To-Speech
 
-    Classification은 말 그대로 분류하는 것이다. 
+   Speech-To-Text는 Speech Data를 Input으로 받아 해당하는 Data를 Text로 변환하는 것이다.(Text-To-Speech는 이와 반대.)
     
-    Pass/Non-Pass와 같이 이분법적으로 분류하면 Binary Classification, A~F까지 Grade를 매기는 것은 Multi-label Classification이라고 한다.
     
-    Ex) SpamFilter와 같이 수신된 메일이 스팸인지 스팸이 아닌지 검출하는 것.
-*  Video understanding 
+*  Video Understanding 
 
-   Clustering은  여러 데이터 포인트들이 있을 때, 더 근접한 데이터들끼리 모아서 클러스터를 만드는 것이다.
-* Image. video style transfer
+    Video Understanding은  Video Data를 보고 해당하는 Video Data의 내용을 Text 형태로 요약하는 것이다. 
+* Image, Video Style Transfer
 
-    Topic Modeling은 어떤 Topic에 해당하는 것인지 찾아내는 것이다.
+    Image, Video Style Transfer는 하나의 Image 또는 Video Style에서 다른 형태의 Style로 변형을 하는 것이다. 
     
-    Ex) 많은 Article들이 어떤 Topic에 해당하는 것인지 찾아내는 것.
-    
-* Text understanding - dialog
+* Text Understanding - Dialog
 
-    Collaborative Filtering은 추천 시스템에서 많이 사용한다.
-    
-    Ex) 사용자가 과거에 매겼던 다른 영화 평점을 기반으로 해당영화 평점을 예측하는 것. 
-    
-*   Ranking ads, feeds, news
+   Text Understanding은 사용자가 Bot이라는 System과 대화를 주고 받을 때 해당 발화를 이해해서 지속적인 대화를 가능하게 하는 것이다.
+   
+* Machine Translation
 
-    Frequent Pattern Mining은 빈번히 동시에 발생하는 패턴들을 찾아서 보는 것이다.
+    Machine Translation은 하나의 언어에서 다른 언어로 번역하는 것이다.
     
-*  Robot control. game play
 
-    Ranking은 여러가지 답의 중요도를 매겨서 순서를 나타내는 것이다.
+
+*   Ranking Ads, Feeds, News
+
+    Ranking Ads, Feeds, News는 Ads, Feed, News 등 이와 같은 것에서 사용자가 더욱 좋아할만한 것을 Ranking하는 것이다.
     
-*   Self-driving car
+*  Robot Control, Game Play
 
-    Ranking은 여러가지 답의 중요도를 매겨서 순서를 나타내는 것이다.
+    Robot Control, Game Play는 DL을 이용하여 Robot을 Control하거나, Game을 Play하는 것을 말한다.
+    
+*   Self-Driving Car
+
+    Self-Driving Car는 DL을 이용하여 주행을 스스로 하게 만든 Self-Driving Car를 말한다.
 
 ...
 
