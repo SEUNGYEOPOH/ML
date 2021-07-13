@@ -129,7 +129,21 @@ Model Evaluate는 다양한 Model, 다양한 하이퍼 파라미터에서 가장
 ****
 # 4. ML Software Stack
 
-<img width="312" alt="STACK" src="https://user-images.githubusercontent.com/81912557/125437759-869dd6a6-3412-492b-b62b-cd35dca64d2f.PNG">
+<img width="500" alt="STACK" src="https://user-images.githubusercontent.com/81912557/125437759-869dd6a6-3412-492b-b62b-cd35dca64d2f.PNG">
+
+## 4.1. What is ML Software Stack?
+ML Software Stack은 ML이 Training&Prediction을 가능하게 해주는 기반이다. 맨 아래는 다양한 Hardware를 이용하는 부분이다. 이런 Hardware를 이용하여 ML Training&Prediction을 실행하는 ML Core가 있다. 그 위에 ML 작업 중에 Domain에 특화된 부분에 해당하는 Lib인 Vision, Speech, Language Lib가 있다. 이런 다양한 Lib 또는 ML Core를 이용하여  최종적으로  ML Application을 만들게 된다.
+
+## 4.2. ML Software Frameworks
+* TensorFlow
+* PyTorch
+* Caffe2
+* MXNet
+## 4.3. ML Hardware
+* GPU
+* GPU VS CPU
+* CPU
+* AIPU
 
 
 ## ○ 참고문서
