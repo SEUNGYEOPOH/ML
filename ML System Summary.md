@@ -132,3 +132,4 @@ Model Evaluate는 다양한 Model, 다양한 하이퍼 파라미터에서 가장
 * [78 Tools for writing and previewing Markdown](http://mashable.com/2013/06/24/markdown-tools/)
 * [SEMICONDUCTOR ENGINEERING](https://semiengineering.com/deep-learning-spreads/)
 * [Creative&Smart](https://blog.lgcns.com/2212/)
+* [개발어린이](https://ahnty0122.tistory.com/59/)
