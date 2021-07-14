@@ -140,6 +140,19 @@ ML Software Stack은 ML이 Training&Prediction을 가능하게 해주는 기반�
 * Caffe2(Facebook에서 오픈소스)
 * MXNet(Apache Software Foundation에서 오픈소스, Amazon에서 많은 Contribution)
 
+
+High-level Structrue
+
+1.사용자들에게 Python-Frontend를 제공하고 이를 통해 Model과 Neural Net을 정의한다. 
+
+2.C++로 짜여진 Backend에서 정의된 Model을 수행한다.
+
+3.하나의 머신에서 CPU,GPU,AIPU 를 사용할 수 있다. 
+
+4.여러 머신을 분산된 여러 머신 환경에서 해당하는 모델을 수행할 수 있다.
+
+
+
 이런 Software를 효율적으로 이용하려면 빠른 계산을 할 수 있는 Hardware가 있어야 한다.
 ## 4.3. ML Hardware
 * GPU
@@ -157,7 +170,6 @@ ML Software Stack은 ML이 Training&Prediction을 가능하게 해주는 기반�
 <img width="500" alt="CPU" src="https://user-images.githubusercontent.com/81912557/125595781-ba1728e8-b7a2-4ce5-b9cc-d0ec816b087e.PNG">
 
         GPU는 CPU보다 훨씬 더 많은 계산능력을 지원한다. 그러므로 DL과 같이 복잡한 계산을 해야한다면 GPU를 사용하는 것이 중요하다.
-
 
     
 * AIPU
