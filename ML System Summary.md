@@ -143,13 +143,14 @@ ML Software Stack은 ML이 Training&Prediction을 가능하게 해주는 기반�
 
 High-level Structrue
 
-1.사용자들에게 Python-Frontend를 제공하고 이를 통해 Model과 Neural Net을 정의한다. 
 
-2.C++로 짜여진 Backend에서 정의된 Model을 수행한다.
+     1.사용자들에게 Python-Frontend를 제공하고 이를 통해 Model과 Neural Net을 정의한다. 
 
-3.하나의 머신에서 CPU,GPU,AIPU 를 사용할 수 있다. 
+     2.C++로 짜여진 Backend에서 정의된 Model을 수행한다.
 
-4.여러 머신을 분산된 여러 머신 환경에서 해당하는 모델을 수행할 수 있다.
+     3.하나의 머신에서 CPU,GPU,AIPU 를 사용할 수 있다. 
+
+     4.여러 머신을 분산된 여러 머신 환경에서 해당하는 모델을 수행할 수 있다.
 
 
 
