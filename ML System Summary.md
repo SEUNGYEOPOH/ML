@@ -143,9 +143,26 @@ ML Software Stack은 ML이 Training&Prediction을 가능하게 해주는 기반�
 이런 Software를 효율적으로 이용하려면 빠른 계산을 할 수 있는 Hardware가 있어야 한다.
 ## 4.3. ML Hardware
 * GPU
-  GPU는 Graphics Processing Unit의 약자로 초기 GPU는 그래픽스 처리를 위해서 만들었다. 그 후 2004년에 들어서며 GPU가 Programmable하게 되고, 그래픽스 이외에 계산을 처리할 수 있게 되었다. 하지만 할 수 있는 것이 제한되어 있는 Shader Programing이었다. 2006년도에 접어들며 GPU는 완전한 Programmable을 이루었고, NVIDIA에서 그래픽스가 아닌 Program을 표현하기 위한 언어로 CUDA라는 언어를 제공했다. CUDA는 GPU에서 아주 빠르게 병렬처리가 가능하다.
-* GPU VS CPU
+
+  GPU는 'Graphics Processing Unit'의 약자로 초기 GPU는 그래픽스 처리를 위해서 만들었다. 그 후 2004년에 들어서며 GPU가 Programmable하게 되고, 그래픽스 이외에 계산을 처리할 수 있게 되었다. 하지만 할 수 있는 것이 제한되어 있는 Shader Programing이었다. 2006년도에 접어들며 GPU는 완전한 Programmable을 이루었고, NVIDIA에서 그래픽스가 아닌 Program을 표현하기 위한 언어로 CUDA라는 언어를 제공했다. CUDA는 GPU에서 아주 빠르게 병렬처리가 가능하다. GPU는 병렬처리를 위한 Specialized Microprocessor이다. 그래서 작고 많은 Core들이 들어가 있다. 
+  
+<img width="500" alt="GPU" src="https://user-images.githubusercontent.com/81912557/125595714-81a94f9c-3473-4e88-a52f-7a94edd0bed3.PNG">
+  
+
+
+* CPU
+
+    CPU는 'Central Processing Unit'의 약자로 중앙처리장치이다. Gneral-Purpose를 위해 만들었으며 GPU와 달리 각각의 Core가 크고, 하나의 CPU에는 많은 Core가 있지는 않다. 그래서 CPU는         Sequential Processing 최적화하는 데 디자인 되어 있다.
+    
+<img width="500" alt="CPU" src="https://user-images.githubusercontent.com/81912557/125595781-ba1728e8-b7a2-4ce5-b9cc-d0ec816b087e.PNG">
+
+        GPU는 CPU보다 훨씬 더 많은 계산능력을 지원한다. 그러므로 DL과 같이 복잡한 계산을 해야한다면 GPU를 사용하는 것이 중요하다.
+
+
+    
 * AIPU
+
+    AIPU는 
 
 
 ## ○ 참고문서
