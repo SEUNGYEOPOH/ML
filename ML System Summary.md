@@ -140,17 +140,32 @@ ML Software Stack은 ML이 Training&Prediction을 가능하게 해주는 기반�
 * Caffe2(Facebook에서 오픈소스)
 * MXNet(Apache Software Foundation에서 오픈소스, Amazon에서 많은 Contribution)
 
+대부분의 ML Framewokr는 High-level Structure를 가진다. 
 
-High-level Structrue
+High-level Structrue는 다음과 같다.
 
+    High-level Structrue
+    
+        1.사용자들에게 Python-Frontend를 제공하고 이를 통해 Model과 Neural Net을 정의한다. 
+        
+        -> Model을 정의한다는 것은 수학적인 계산을 기술하는 것.
 
-     1.사용자들에게 Python-Frontend를 제공하고 이를 통해 Model과 Neural Net을 정의한다. 
+        2.C++로 짜여진 Backend에서 정의된 Model을 수행한다.
+        
+        -> Model을 수행하는 것은 주어진 Data Batch에 대해 Forward, Backward 계산을 한다는 것. 
+        
+        IF Training -> Data 수행 반복을 통한 Optimization
+        
+        Forward(Auto-Differentiation)->Backward 
+        
+        + Training을 위해 ML Framework가 자동으로 미분값을 계산해서 지원해주는데 이를 Auto-Differentiation이라 함. 
+        
+        IF Prediction -> 하나의 Data가 Input으로 들어오면 한 번 Forward 계산을 하고 그 계산결과로 Prediction을 하게 됨. 
+        이를통해서 Prediction에서는 Backward 계산이 없이 Forward 계산만 이루어짐을 알 수 있음.
 
-     2.C++로 짜여진 Backend에서 정의된 Model을 수행한다.
+        3.하나의 머신에서 CPU,GPU,AIPU 를 사용할 수 있다. 
 
-     3.하나의 머신에서 CPU,GPU,AIPU 를 사용할 수 있다. 
-
-     4.여러 머신을 분산된 여러 머신 환경에서 해당하는 모델을 수행할 수 있다.
+        4.여러 머신을 분산된 여러 머신 환경에서 해당하는 모델을 수행할 수 있다.
 
 
 
